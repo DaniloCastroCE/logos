@@ -1,5 +1,5 @@
 const loading = new Loading('.loading')
-const option = 'sequential';
+const option = 'random';
 
 const what_option = (op) => {
     switch (op) {

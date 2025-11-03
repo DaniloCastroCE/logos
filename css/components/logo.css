@@ -24,7 +24,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    line-height: 0;
+    line-height: 1;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .logos-car-box .content-text .nome {
@@ -35,6 +37,8 @@
 
 .logos-car-box .content-text .geral {
     font-size: 0.9em;
+    margin: 0;
+    
 }
 
 .logos-car-box .content-text .fundacao {
