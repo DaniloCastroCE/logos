@@ -1,11 +1,24 @@
 const loading = new Loading('.loading')
+const option = 'sequential';
 
-createHtmlLogoRandom()
+const what_option (op) {
+    switch (op) {
+        case 'sequential':
+            createHtmlLogoSequential();
+            break;
+        case 'random':
+            createHtmlLogoRandom();
+            break;
+        default:
+            break;
+    }
+}
 
+what_option(option);
 
 window.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
-        createHtmlLogoRandom()
+        what_option(option);
     }
 })
 
