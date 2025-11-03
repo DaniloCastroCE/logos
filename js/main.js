@@ -1,7 +1,7 @@
 const loading = new Loading('.loading')
 const option = 'sequential';
 
-const what_option (op) {
+const what_option = (op) => {
     switch (op) {
         case 'sequential':
             createHtmlLogoSequential();
