@@ -1,0 +1,20 @@
+/* globals */
+@import url('./globals/variable.css');
+@import url('./globals/reset.css');
+@import url('./globals/globals.css');
+
+/* utils */
+@import url('./utils/animation.css');
+
+/* Layout */
+@import url('../css/layout/layout.css');
+
+/* components */
+@import url('./components/loading.css');
+@import url('./components/logo.css');
+
+
+
+
+
+

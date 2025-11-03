@@ -1,0 +1,28 @@
+@keyframes fadeInSimple {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutSimple {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.91);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
