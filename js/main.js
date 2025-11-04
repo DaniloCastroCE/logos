@@ -1,5 +1,4 @@
 const loading = new Loading('.loading')
-const option = 'random';
 
 const what_option = (op) => {
     switch (op) {
@@ -10,15 +9,19 @@ const what_option = (op) => {
             createHtmlLogoRandom();
             break;
         default:
+            innerModo()
             break;
     }
 }
 
-what_option(option);
+if(loop) choose_loop()
+else what_option();
 
 window.addEventListener('keydown', (e) => {
+    if(loop) return
     if (e.key === 'Enter' || e.key === ' ') {
-        what_option(option);
+        what_option();
     }
 })
+
 

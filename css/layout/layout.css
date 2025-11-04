@@ -1,3 +1,14 @@
+header {
+    width: 100%;
+    padding: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 main {
     height: 100%;
+    flex: 1;
+    overflow: hidden;
 }

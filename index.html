@@ -17,12 +17,27 @@
         <img src="./img/loading/loading01.gif" alt="loading">
         <p>Aguarde . . .</p>
     </section>
+    <header>
+        <div class="controls">
+            <select name="next" id="next">
+                <option value="sequential">Sequencial</option>
+                <option value="random">Aleatório</option>
+            </select>
+
+            <label for="loop">Repetir</label>
+            <label class="switch">
+                <input type="checkbox" name="loop" id="loop">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
     <main>
         <section class="logos-car"></section>
     </main>
     <script type="text/javascript" src="./js/components/loading.js"></script>
     <script type="text/javascript" src="./js/utils/Numero.js"></script>
     <script type="text/javascript" src="./js/utils/ArrayLogos.js"></script>
+    <script type="text/javascript" src="./js/controllers/events.js"></script>
     <script type="text/javascript" src="./js/components/createHtml.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
