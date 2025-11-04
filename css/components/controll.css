@@ -52,7 +52,7 @@ select {
 }
 
 .switch input:checked + .slider {
-  background-color: rgba(0, 0, 255, 0.3);
+  background-color: rgba(0, 255, 0, 0.3);
 }
 
 .switch input:checked + .slider:before {
