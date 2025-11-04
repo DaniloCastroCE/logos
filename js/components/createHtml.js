@@ -78,6 +78,11 @@ const onClickLogo = (callback) => {
 checkboox_loop.addEventListener('change', (e) => {
     loop = e.target.checked
     choose_loop()
+    e.target.blur()
+})
+
+select_modo.addEventListener('change', (e) => {
+    e.target.blur()
 })
 
 let loopTimeout
