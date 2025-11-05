@@ -1,23 +1,28 @@
 .logos-car {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logos-car-box {
     width: 100%;
     height: 100%;
+    max-height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
     animation: fadeInScale 0.6s ease-in-out;
 }
 
 .logos-car-box svg {
     fill: white;
+    height: 65%;
     width: auto;
-    height: 50%;
+    max-width: 100%;
     cursor: pointer;
+    padding: 0 5px;
 }
 
 .logos-car-box .content-text {
@@ -27,6 +32,7 @@
     line-height: 1.2;
     flex-wrap: wrap;
     text-align: center;
+    padding: 5px 5px 20px;
 }
 
 .logos-car-box .content-text .nome {
